@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python / CircuitPython
+__pycache__/
+*.py[cod]
+*.mpy
+
+# CircuitPython runtime artifacts (created on the CIRCUITPY drive)
+boot_out.txt
+.fseventsd/
+.metadata_never_index
+.Trashes
+.Spotlight-V100
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Slicer output (keep .3mf source files, ignore exported toolpaths)
+*.gcode
+*.gcode.3mf
