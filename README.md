@@ -1,5 +1,7 @@
 # Tetris Controller
 
+![The assembled split controller, both halves lit up](images/controller.jpg)
+
 A split Tetris controller built around a Raspberry Pi Pico running CircuitPython. Presents itself as a USB keyboard so it works with any Tetris game (TETR.IO, Tetris Effect, Jstris, etc.) with no remapping required.
 
 ## Hardware
