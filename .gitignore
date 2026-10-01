@@ -22,6 +22,6 @@ boot_out.txt
 *.swp
 *~
 
-# Slicer output (keep .3mf source files, ignore exported toolpaths)
+# Slicer output (keep .stl model files, ignore exported toolpaths)
 *.gcode
 *.gcode.3mf

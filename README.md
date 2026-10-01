@@ -1,7 +1,5 @@
 # Tetris Controller
 
-![The assembled split controller, both halves lit up](images/controller.jpg)
-
 A split Tetris controller built around a Raspberry Pi Pico running CircuitPython. Presents itself as a USB keyboard so it works with any Tetris game (TETR.IO, Tetris Effect, Jstris, etc.) with no remapping required.
 
 ## Hardware
@@ -27,6 +25,42 @@ All buttons: **SW+ → GPIO**, **SW− → GND**. Internal pull-ups are enabled 
 | Zone / Start | GP9  | Right | A             |
 
 The left-half buttons reach the Pico through the GX16-8 cable but are electrically identical to the right-half buttons.
+
+## Enclosure: Printed by PCBWay
+
+[PCBWay](https://www.pcbway.com/) saw the first version of this controller and reached out about sponsoring a print. This inspired me to revise the design.
+
+PCBWay is a prototyping and small-batch manufacturer. Along with PCB fabrication and assembly, they offer 3D printing (SLA, SLS, MJF, FDM, and metal), CNC machining, sheet metal, and injection molding.
+
+I printed my first version in PETG on my Prusa Core One. It proved the layout, but it still looked like a prototype. For the next revision I wanted something that felt solid and a bit more professional.
+
+### Ordering
+
+I exported the box and button panel from Fusion 360. I went through the ordering process which felt intimidating at first but ultimately was pretty straightforward. I wanted something that I could not print myself so I went with Nylon PA12.
+
+![Order Form](images/order.png)
+
+One of their engineers reached out and warned me that there was a chance of some warping. I was fine with this, since my tolerances were loose enough to absorb a little warping.
+
+It was very comforting to get this feedback instead of just receiving the item and being disappointed in the results.
+
+So far I've gotten the right side of the controller. It arrived in a nondescript box and was extremely well protected with foam. When I took it out I was really impressed. It looks incredible and it feels almost as if I had it printed in ceramic. I just love the feel and the sound when I tap it.
+
+![Button panel seated on the box](images/pcbway-panel.jpg)
+
+The inside came out just as cleanly as the outside. The screw bosses on the Pico mounting rail are fully formed, and the rectangular USB cutout has sharp corners.
+
+![Inside the box: Pico mounting rail, USB cutout, and panel lip](images/pcbway-interior.jpg)
+
+![Side view showing the GX16-8 connector hole](images/pcbway-side.jpg)
+
+The pieces fit together without any sanding, which was a relief. The button holes came out perfectly! They left no sign of supports.
+
+I am looking forward to doing the second half and assembling the final piece. Once that is done I will have a controller that really changes how I play Tetris and other games.
+
+### Why PCBWay
+
+I have tried to get quotes for small projects. Small quantities are just not worth it to most manufacturers and the quotes come back in the thousands. PCBWay gives me an approachable way to make something just for me while having the quality of a professional product.
 
 ## Setup for a new Pico
 
