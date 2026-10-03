@@ -28,6 +28,8 @@ The left-half buttons reach the Pico through the GX16-8 cable but are electrical
 
 ## Enclosure: Printed by PCBWay
 
+<a href="https://www.pcbway.com/"><img src="images/pcbway-logo.png" alt="PCBWay" width="300"></a>
+
 [PCBWay](https://www.pcbway.com/) saw the first version of this controller and reached out about sponsoring a print. This inspired me to revise the design.
 
 PCBWay is a prototyping and small-batch manufacturer. Along with PCB fabrication and assembly, they offer 3D printing (SLA, SLS, MJF, FDM, and metal), CNC machining, sheet metal, and injection molding.
